@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin/>
+<pubdate>20171122</pubdate>
+<title>Schools</title>
+<geoform>Vector Digital Data Set (Point)</geoform>
+<onlink>https://apps.douglas.co.us/geopendata/rest/services/Schools/Schools/MapServer/0</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Open data.  Schools in Douglas County</abstract>
+<purpose>Depicts schools within Douglas County, Colorado</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20171016</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>In work</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-105.078038093</westbc>
+<eastbc>-104.694900889</eastbc>
+<northbc>39.563578644</northbc>
+<southbc>39.184554866</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>government</themekey>
+<themekey>GIS</themekey>
+<themekey>open data</themekey>
+<themekey>schools</themekey>
+<themekey>education</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Douglas County Colorado</placekey>
+<placekey>CO</placekey>
+<placekey>USA</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>Disclaimer:All data and information (“Products”) contained herein are for informational purposes only.  Although such Products are believed to be accurate at the time they were published, Douglas County does not warrant that such Products are error free.  Douglas County provides these Products on an “as is” basis without warranties of any kind, either express or implied, including, but not limited to, warranties of title or implied warranties of merchantability or fitness for a particular purpose.  Douglas County shall not be liable for any direct, indirect, incidental, special or consequential damages arising out of the use of such Products, or the inability to use such Products or out of any breach of any warranty.  The user acknowledges and agrees that the use of such Products is at the sole risk of the user.This data is licensed by Creative Commons 4.0: http://creativecommons.org/licenses/by-sa/4.0/You are free to:Share — copy and redistribute the material in any medium or formatAdapt — remix, transform, and build upon the materialfor any purpose, even commercially.The licensor cannot revoke these freedoms as long as you follow the license terms.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Douglas County Colorado GIS Services Team</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>100 Third Street</address>
+<city>Castle Rock</city>
+<state>Colorado</state>
+<postal>80104</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>303-660-7416</cntvoice>
+<cntemail>gisservices@douglas.co.us</cntemail>
+<hours>Monday - Friday, 8:00 am to 5:00 pm (MST)</hours>
+</cntinfo>
+</ptcontac>
+<datacred>Douglas County Colorado GIS Services Team</datacred>
+<native>Environment as of Metadata Creation: Microsoft [Unknown] Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1 (Build 5686) Service Pack N/A (Build N/A)</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+</attracc>
+<logic>No formal logical accuracy tests were conducted.</logic>
+<complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+<posacc>
+<horizpa>
+<horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+</horizpa>
+<vertacc>
+<vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<procstep>
+<procdesc>Development of the data set by the agency / individuals identified in the 'Originator' element in the Identification Info section of the record.</procdesc>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<ptvctcnt>105</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>SCHOOLS</enttypl>
+<enttypd>Schools within Douglas County Colorado</enttypd>
+<enttypds>Producer defined</enttypds>
+</enttyp>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>Esri</attrdefs>
+<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>Esri</attrdefs>
+<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Facility_Type</attrlabl>
+<attrdef>Type of school</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+					<edom>
+						<edomv>Elementary School</edomv>
+						<edomvd>Unknown</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>High School</edomv>
+						<edomvd>Unknown</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Private</edomv>
+						<edomvd>Unknown</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Charter School</edomv>
+						<edomvd>Unknown</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Alternative Ed</edomv>
+						<edomvd>Unknown</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Middle School</edomv>
+						<edomvd>Unknown</edomvd>
+						<edomvds>Producer defined</edomvds>
+					</edom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>PropertyCity</attrlabl>
+<attrdef>School city</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+					<udom>Unknown</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>PropertyAddress</attrlabl>
+<attrdef>School address</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+					<udom>Unknown</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Name</attrlabl>
+<attrdef>School name</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+					<udom>Unknown</udom>
+				</attrdomv>
+</attr>
+</detailed>
+<overview>
+<eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+<eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Douglas County Colorado GIS Services Team</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>100 Third Street</address>
+<city>Castle Rock</city>
+<state>CO</state>
+<postal>80104</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>303-660-7416</cntvoice>
+<cntemail>gisservices@douglas.co.us</cntemail>
+</cntinfo>
+</distrib>
+<distliab>This data is licensed by Creative Commons 4.0:  http://creativecommons.org/licenses/by-sa/4.0/ ; You are free to:  Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially.  The licensor cannot revoke these freedoms as long as you follow the license terms.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>Vector Digital Data Set (Point)</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://gis-dougco.opendata.arcgis.com</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None. No fees are applicable for obtaining the data set.</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20171204</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Douglas County Colorado GIS Services Team</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>100 Third Street</address>
+<city>Castle Rock</city>
+<state>Colorado</state>
+<postal>80104</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>303-660-7416</cntvoice>
+<cntemail>gisservices@douglas.co.us</cntemail>
+<hours>Monday - Friday, 8:00 am to 5:00 pm (MST)</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>
